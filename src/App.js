@@ -22,20 +22,7 @@ export default function App(){
       fetchData();
     }, [Lat,Long])
 return(
-    <div className='mainbox' onMouseOver={(e)=>{
-        const Interface= document.getElementsByClassName('wheaterinterface')[0];
-        e.currentTarget.style.height='320px';
-        e.currentTarget.style.width='460px';
-        e.currentTarget.style.borderRadius="0 0 50% 0";
-        Interface.style.opacity='1';
-        e.currentTarget.style.boxShadow=' 0 3px 3px gray';
-    }}
-    onMouseOut={(e)=>{
-        const Interface= document.getElementsByClassName('wheaterinterface')[0];
-        e.currentTarget.style.height='32px';
-        Interface.style.opacity='0';
-        e.currentTarget.style.boxShadow='none';
-    }}>{(typeof Data.main) != 'undefined'?
+    <div className='mainbox'>{(typeof Data.main) != 'undefined'?
     (<div className='wheaterinterface'>
     <header>
         <h1>Wheater</h1>
