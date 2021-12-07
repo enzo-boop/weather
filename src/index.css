@@ -43,7 +43,7 @@ p,.datawait{
   font-variant:all-small-caps;
 }
 .temps{ 
-  width: 180px;
+  width: 120px;
   font-size: 18px;
   display: flex;
   flex-direction: column;
@@ -61,7 +61,7 @@ p,.datawait{
 .description{
   font-size: 22px;
   font-variant: all-small-caps;
-  display: block;
+  width:120px;
 }
 .Contents,.temps,.cityname,p,h1,.datawait{
   text-shadow: 0.5px 0.5px rgb(53, 53, 53),-0.5px -0.5px rgb(53, 53, 53),-0.5px 0.5px rgb(53, 53, 53),0.5px -0.5px black, 3px 3px 7px rgb(80, 80, 80);
