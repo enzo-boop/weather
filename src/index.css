@@ -10,6 +10,7 @@
   border: solid 1px rgb(88, 88, 88);
   width:460px;
   height: 320px;
+  transition: all ease-in-out 0.3s;
 }
 .city{
   width: 100%;
@@ -23,7 +24,7 @@ h1{
   font-size:32px;
   color:white;
  }
-p{
+p,.datawait{
   text-align: center;
   color:white;
   font-weight: bold;
@@ -42,6 +43,7 @@ p{
   font-variant:all-small-caps;
 }
 .temps{ 
+  width: 180px;
   font-size: 18px;
   display: flex;
   flex-direction: column;
@@ -61,6 +63,12 @@ p{
   font-variant: all-small-caps;
   display: block;
 }
-.Contents,.temps,.cityname,p,h1{
+.Contents,.temps,.cityname,p,h1,.datawait{
   text-shadow: 0.5px 0.5px rgb(53, 53, 53),-0.5px -0.5px rgb(53, 53, 53),-0.5px 0.5px rgb(53, 53, 53),0.5px -0.5px black, 3px 3px 7px rgb(80, 80, 80);
+}
+@media screen and (max-width: 480px) {
+  .mainbox{
+    width:100%;
+    height: 380px;
+  }
 }

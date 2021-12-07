@@ -44,7 +44,7 @@ return(
     </div>
 </div>)
 :
-(<div>Waiting for data...</div>)}
+(<div className='datawait'>Waiting for data...</div>)}
     </div>
 );
 
