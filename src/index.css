@@ -10,10 +10,6 @@
   width:460px;
  height: 380px;
 }
-.wheaterinterface{
-  transition: ease-in-out all 0.3s;
-  opacity: 0;
-}
 .city{
   width: 100%;
   border-top: solid 1px black;
