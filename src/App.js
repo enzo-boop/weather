@@ -25,8 +25,8 @@ return(
     <div className='mainbox'>{(typeof Data.main) != 'undefined'?
     (<div className='wheaterinterface'>
     <header>
-        <h1>Wheater</h1>
-        <p>Simple wheather app written in React.js</p>
+        <h1>Weather</h1>
+        <p>Simple weather app written in React.js</p>
     </header>
     <div className='city'>
     <span className='cityname'>{Data.name}</span>
