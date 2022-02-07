@@ -44,7 +44,7 @@ return(
     </div>
 </div>)
 :
-(<div className='datawait'>Waiting for data...</div>)}
+(<div className='datawait'>Waiting response (activation of geolocation is needed)...</div>)}
     </div>
 );
 
